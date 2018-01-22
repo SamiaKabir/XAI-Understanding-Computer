@@ -134,12 +134,12 @@ width: 40%;
 #exit_button {
 	display: inline-block;
   float: left;
-  /*margin-left: 10%;*/
+  margin-left: 10%;
 }
 
 #backbutton {
 	display: inline-block;
-	margin-left: 4%
+	margin-left: 10%
 }
 
 #category {
@@ -268,14 +268,18 @@ div.absolute {
 
 #chartDiv{
   /*display: table;*/
+  width:80%;
   margin: 0 auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  /*margin-top: 5%;*/
+  /*margin-bottom: 5%;*/
   margin-right: : 20%;
   background: white;
+  border-radius: 5px;
   /*width: 100%*/
      /*margin-top:2%;
      margin-right: 10%;*/
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 #panel{
   /*display: table-cell;*/
@@ -304,6 +308,7 @@ img {
     width: 80%;
     margin-left: 10%;
     height: auto;
+  border-radius: 5px;
 }
 
 #test_img{
@@ -458,4 +463,25 @@ nav h1, nav span {
   text-shadow: 0px 0px 0px #7dbfff91;
   font-size: 43px;
   margin-left: 1%;
+}
+
+#label {
+  margin-left: 5%;
+  padding-left: 2.5%;
+  width: 40%;
+  border-style: solid;
+  border-color: #bfbcbc;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background-color: rgba(151, 195, 244, 0.72);
+  box-shadow: 3px 2px 7px rgba(102, 83, 54, 0.25);
+}
+
+button#next2, button#prev2{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+button#exit2 {
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
