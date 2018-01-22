@@ -179,7 +179,7 @@ function getCookie(cname) {
 
 function image_title(){
     obj = imageName.toString().split(".")[0].slice(0,-1)
-    explanation_title.text("Highlighted area shows which regions of the image are important for the Artificial Intelligence to identify this object. How good do you think the highlighted area explains the object in this image? Is the artificial intelligence going to be right in recognizing this image?: ( "+ doc_num+" / "+total_doc+ " )");
+    explanation_title.text("Highlighted areas are supposed to be the most important to understand what the object is! How good do you think the highlighted area is to explain the object in this image? ( "+ doc_num+" / "+total_doc+ " )");
 }
 
 function showImage(image_name, update_txt) {
@@ -304,21 +304,26 @@ d3.select('#palette')
 
 var rating = 0;
 
-$(document).ready(function() {
-  $('input[type=radio][name=star]').change(function() {
-     // confirm(this.value)
-     rating = this.value
-     // console.log(rating)
-  });
-});
-
+var r1;
+var r2;
+var r3;
+var Value_radio;
 
 function save_json(){  
 
+          r1= document.getElementById("star-1");
+          r2= document.getElementById("star-2");
+          r3= document.getElementById("star-3");
+          if(r1.checked) Value_radio="Good";
+          if(r2.checked) Value_radio="NotSure";
+          if(r3.checked) Value_radio="Bad";
+   
+         // Value_radio=  document.getElementById("star-1").value; 
+
 	
 	// for (var i=0;i<highlight_data.length;i++){
-	if (rating > 0) results_json.push({image: imageName, rating: rating})// contour: i+1, points: highlight_data[i]})
-	console.log("rate", rating)
+	results_json.push({image: imageName, value: Value_radio})// contour: i+1, points: highlight_data[i]})
+	//console.log("Value",Value_radio);
 	// }
 	saved = 1;
 }
@@ -330,7 +335,7 @@ function WriteFile(){
 	var jsonContent = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(results_json));
 	var a = document.createElement('a');
 	a.href = 'data:' + jsonContent;
-	a.download = 'results.json';
+	a.download = 'results_veri.json';
 	a.innerHTML = 'End Study';
 	a.click();
 }

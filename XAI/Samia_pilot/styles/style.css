@@ -361,3 +361,15 @@ label.star:before {
 
   font-family: FontAwesome;
 }
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+ul li {
+  float: left;
+  display: block;
+  width: 85px;
+  text-align: center;
+}
