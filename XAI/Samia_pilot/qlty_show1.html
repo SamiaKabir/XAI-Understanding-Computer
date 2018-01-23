@@ -6,13 +6,20 @@
 <head>
 <title>Explainable Machine Learning (XAI)</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <link rel="stylesheet" href="./styles/style.css">
+  <!--<link rel="stylesheet" href="./styles/style.css">-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="./libraries/bootstrap.js"></script>
-   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
- 
+   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"><script src="./libraries/bootstrap.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 
 
@@ -20,15 +27,13 @@
 
 
 <body>
-   <div id="nextbutton" > <button id="next" onclick="nextImage()">Next Image</button> </div>
-   <div id="backbutton" > <button onclick="lastImage()">Previous Image</button> </div>
-   <div id="exit_button" > <button onclick="start_over()">End Study</button> </div>
+<nav class="navbar navbar-light">
+    <h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>
+</nav>
+<div class="row" id="exit_button" > <button id="exit2" class="btn btn-edited" onclick="start_over()">End study</button> </div>
 
-   <!-- <div id="start" > <button onclick="start_over()">Start over</button> </div> -->
 
-  <!-- </br> -->
-
-  <div id="chartDiv" style ="width: 80%">
+<div id="chartDiv">
 
         <table>
             <tr>
@@ -36,7 +41,7 @@
             </tr>
             <tr>
               <th colspan= "2"> 
-              <div id="label"  style = "margin-left:25%; padding-left: 0.5%;width:40%;border-style:solid;border-width:2px;border-radius:12px;background-color:#d8ecf3;">
+              <div id="label"  >
                 <i class="fa fa-laptop" style="font-size:48px;color:grey;padding-left: 0%"></i>
 
               </div>
@@ -51,7 +56,7 @@
                 <td>
                  <div class = image>
                    <br>
-                  <img  id= raw_img  src="../template/raw.png"  width="400" >
+                  <img  id= raw_img  src="../template/raw.png" class="img-thumbnail" width="400" >
                  </div>
                   <br>
                </td>
@@ -59,7 +64,7 @@
                 <td>
                 <div class = image> 
                 <br>
-                  <img  id= test_img src="../template/edit.png" width="400">
+                  <img  id= test_img src="../template/edit.png" class="img-thumbnail" width="400">
                 </div>
                 <br>
                 </td>
@@ -71,12 +76,13 @@
         </table>
   </div>
 
-    <div id="nextbutton" > <button id="next2" onclick="nextImage()">Next Image</button> </div>
-   <div id="backbutton" > <button onclick="lastImage()">Previous Image</button> </div>
-   <div id="exit_button" > <button onclick="start_over()">End study</button> </div>
+<div id="nextbutton" > <button class="btn btn-edited" id="next2" onclick="nextImage()">Next Image</button> </div>
+<div id="backbutton" > <button class="btn btn-edited" id="prev2" onclick="lastImage()">Previous Image</button> </div>
 
-  
-  <script id= maincode src="./scripts/qlty_show1.js"></script> 
+
+
+
+<script id= maincode src="./scripts/qlty_show1.js"></script>
 
     <script>
      window.onload=function (){
