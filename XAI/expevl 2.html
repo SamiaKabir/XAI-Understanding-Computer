@@ -6,37 +6,53 @@
 <head>
 <title>Explainable Machine Learning (XAI)</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
+  <!--<link rel="stylesheet" href="./Samia_pilot/styles/style.css">-->
   <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./libraries/bootstrap.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Samia_pilot/styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 
 <body>
-  <!--<div id="formDiv">-->
-  <nav class="navbar navbar-light">
-      <h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>
-  </nav>
+    <nav class="navbar navbar-light">
+        <h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>
+    </nav>
+
+  <div id="formDiv">
+    
     <div id="studyMenu">
-        <br>
-        <h1 > Participant's Task: </h1>
-        <h3 id="task"></h3>
-        <br>
-     <h3>Verification Study </h3>
+        <b>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+
+        </br>
+        </br>
+      </b>
+     <div id= title><h3>Verification Study </h3> </div>
         </br>
         </br>
       <!-- <form id="category" action=""> -->
-        <input type="radio" name="category" value="all"> Images<br><br>
-        <br>
-        <h3>Evaluate quality of machine generated explanations for image data: </h3>
+        <input type="radio" name="category" value="all"> Images<br>
+      </br>
+      </br>
+
+      </br>
+      </br>
+      </br>
+      </br>
+        </br>
+         <div id= title><h3>Evaluate quality of machine generated explanations for image data: </h3> </div>
         </br>
         </br>
       <!-- <form id="category" action=""> -->
@@ -47,19 +63,21 @@
         <input type="radio" name="category" value="robust1"> Group 5<br>
         <input type="radio" name="category" value="no1"> Group 6<br>
         <input type="radio" name="category" value="quiz"> Quiz<br>
-      <!--</br></br></br></br></br></br>-->
-
+      </form>
+      </br></br></br></br></br></br>
+        <h1> Participant's Task: </h1>
+        <h4 id="task"> </h4>
     </div>
 
-  <!--</div>-->
+  </div>
 
-  <div id="nextbutton4" > <button class="btn btn-edited" id="btnContinue" onclick=read_radio() >Continue</button> </div>
+  <div id="nextbutton4"> <button onclick=read_radio() >Continue</button> </div>   
 
   <script type="text/javascript"> 
 
     // var user_select = "sci.electronics"
     var user_select = "ImageNet"
-    var task_txt = "Please choose and complete one of the following tasks."
+    var task_txt = "Please choose a category to find out about your task"
     document.getElementById("task").innerHTML = task_txt;
 
     $(document).ready(function() {

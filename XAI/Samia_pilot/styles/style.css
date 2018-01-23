@@ -49,11 +49,11 @@ h4{
   font-size: 0.9em;
 }
 
-#title{
+.title{
   float: left;
   position: absolute;
   left: 10%;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 
 }
 
@@ -97,7 +97,7 @@ a{
   font-family: sans-serif;
   font-size: 100%; 
   line-height: 1.2em; 
-  margin: 10 auto; 
+  margin: 10px auto;
   background: white;
   margin-top:2%;
   width: 80%
@@ -105,19 +105,54 @@ a{
   /*display: inline-block;*/
 }
 
-#cnsnttextbox {
+#consentMenu {
   /*display: table-cell;*/
   width: 85%;
-  height: 60%;
+  /*height: 60%;*/
   padding: 20px;
   margin: 0 auto;
   text-align: justify;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   text-overflow: ellipsis;
   background: white;
   border-radius: 5px ;
+  margin-top: 5%;
+}
+
+#studyMenu {
+  /*display: table-cell;*/
+  width: 85%;
+  /*height: 60%;*/
+  padding: 20px;
+  margin: 0 auto;
+  text-align: justify;
+  /*overflow-y: scroll;*/
+  text-overflow: ellipsis;
+  background: white;
+  border-radius: 5px ;
+  margin-top: 5%;
+  font-family: Viga;
  }
 
+#studyMenu h1 {
+  font-size: 28px;
+  color: rgb(37, 41, 62);
+}
+#studyMenu h3 {
+  color: rgba(95, 158, 160, 0.84);
+  font-size: 19px;
+}
+#studyMenu #task {
+  color: rgb(37, 41, 62);
+  font-size: 19px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: #25293e;
+  border-radius: 5px;
+  box-shadow: 4px 2px 4px rgba(102, 83, 54, 0.27);
+
+}
 
 #chartDiv{
 margin-bottom: 1%;
@@ -182,9 +217,9 @@ p{
 #nextbutton4 {
   /*display: table-column;*/
   /*display: block;*/
-  float:right;
-  margin-right: 20%;
-  margin-top: 2%;
+  /*float:right;*/
+  margin-left: 7.5%;
+  /*margin-top: 2%;*/
   /*margin-bottom: 2%;*/
 }
 
@@ -272,7 +307,7 @@ div.absolute {
   margin: 0 auto;
   /*margin-top: 5%;*/
   /*margin-bottom: 5%;*/
-  margin-right: : 20%;
+  /*margin-right: 20%;*/
   background: white;
   border-radius: 5px;
   /*width: 100%*/
@@ -483,5 +518,10 @@ button#next2, button#prev2{
 }
 button#exit2 {
   border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+button#btnContinue {
+  border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
