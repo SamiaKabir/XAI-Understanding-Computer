@@ -24,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="141" column="28" lean-forward="false" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+            <state relative-caret-position="377">
+              <caret line="432" column="0" lean-forward="true" selection-start-line="432" selection-start-column="0" selection-end-line="432" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style 2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style 2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -37,18 +47,22 @@
       <file leaf-file-name="verification.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Samia_pilot/verification.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="387">
+              <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#tr#0;n#table#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qlty_veri.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qlty_veri.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Samia_pilot/scripts/qlty_veri.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="447" column="14" lean-forward="false" selection-start-line="447" selection-start-column="14" selection-end-line="447" selection-end-column="14" />
+            <state relative-caret-position="701">
+              <caret line="474" column="24" lean-forward="true" selection-start-line="474" selection-start-column="24" selection-end-line="474" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -146,9 +160,10 @@
         <option value="$PROJECT_DIR$/Samia_pilot/scripts/no_qlty.js" />
         <option value="$PROJECT_DIR$/Samia_pilot/no_qlty.html" />
         <option value="$PROJECT_DIR$/Samia_pilot/no_qlty1.html" />
-        <option value="$PROJECT_DIR$/Samia_pilot/styles/style.css" />
-        <option value="$PROJECT_DIR$/Samia_pilot/verification.html" />
         <option value="$PROJECT_DIR$/Samia_pilot/scripts/qlty_veri.js" />
+        <option value="$PROJECT_DIR$/Samia_pilot/verification.html" />
+        <option value="$PROJECT_DIR$/Samia_pilot/styles/style 2.css" />
+        <option value="$PROJECT_DIR$/Samia_pilot/styles/style.css" />
       </list>
     </option>
   </component>
@@ -201,6 +216,12 @@
             <path>
               <item name="XAI" type="b2602c69:ProjectViewProjectNode" />
               <item name="XAI" type="462c0819:PsiDirectoryNode" />
+              <item name="Samia_pilot" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XAI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XAI" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -248,12 +269,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516407519090</updated>
       <workItem from="1516407527782" duration="284000" />
-      <workItem from="1516407960723" duration="12309000" />
+      <workItem from="1516407960723" duration="13726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12593000" />
+    <option name="totallyTimeSpent" value="14010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1104" height="973" extended-state="0" />
@@ -301,14 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style 2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="362" column="29" lean-forward="false" selection-start-line="362" selection-start-column="24" selection-end-line="362" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -380,14 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="141" column="28" lean-forward="false" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Samia_pilot/cnsnt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -412,18 +417,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/verification.html">
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/scripts/qlty_veri.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="701">
+          <caret line="474" column="24" lean-forward="true" selection-start-line="474" selection-start-column="24" selection-end-line="474" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/scripts/qlty_veri.js">
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/verification.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="447" column="14" lean-forward="false" selection-start-line="447" selection-start-column="14" selection-end-line="447" selection-end-column="14" />
+        <state relative-caret-position="387">
+          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#tr#0;n#table#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#tr#1;n#table#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style 2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="432" column="0" lean-forward="true" selection-start-line="432" selection-start-column="0" selection-end-line="432" selection-end-column="0" />
           <folding />
         </state>
       </provider>
