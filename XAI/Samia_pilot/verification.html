@@ -21,7 +21,7 @@
 
 </head>
 
-<div>
+<body>
 
     <nav class="navbar navbar-light">
         <h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>
@@ -29,11 +29,35 @@
 
     <div class="row" id="exit_button" > <button id="exit2" class="btn btn-edited" onclick="start_over()">End study</button> </div>
 
+
   <div id="chartDiv">
         <br><br><br>
         <table>
             <tr>
               <div id=panel style = "padding-top: 2%"></div>     
+            </tr>
+
+                 <tr>
+                <div id='palette' style = "margin-top: 0%; margin-left: 2%;">
+                  <!-- <div id="rating-details" class="col-md-12">How do you rate this classification? -->
+                    <div class="stars" id="label" style="margin-left: 0px;">
+                      <form action="">  <!-- style = "margin-left: 10px" -->
+                        <ul>
+
+                        <li><input  id="star-3" type="radio" name="star" value="3"/>
+                        <label  for="star-3">Bad</label></li>
+                        <li><input  id="star-2" type="radio" name="star" value="2"/>
+                        <label  for="star-2">Not Sure</label></li>
+                        <li><input  id="star-1" type="radio" name="star" value="1"/>
+                        <label  for="star-1">Good</label></li>
+                        </ul>
+                      </form>
+                    </div>
+                  <!-- </div> -->
+                  <!-- <button id='clear' style="float:right; margin-right: 30%" >Clear</button> -->
+
+
+                </div>    
             </tr>
             <tr>              
                 <!-- <svg id="img_box" class="img_box">
@@ -42,8 +66,8 @@
 
                 <br>
                 <br>
-                <div class = image>
-                  <img  id= test_img src="../template/edit.png" width="400" >
+                <div class = image >
+                  <img  id= test_img src="../template/edit.png" class="img-thumbnail" width="400" >
                 </div>
                 <br>
                 <br>
@@ -58,5 +82,6 @@
 
 
     <script id= maincode src="./scripts/qlty_veri.js"></script>
+
 </body>
 </html>
