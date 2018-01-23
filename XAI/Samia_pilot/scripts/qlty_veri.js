@@ -445,6 +445,7 @@ var w_size = window,
 	var explanation_title = d3.select("#panel").append("g").append("text").attr("class","explanation_title")
 			  .style("font-weight", "bold")
 			  .style("font-size", "15px")
+			  .style("font-family","Viga")
 			  .text("Please rate how fine is the highlighted area of this image to explain the object in this image.")
 			  .attr('dy','0.35em')
 			  .attr("x", explanation_x)
