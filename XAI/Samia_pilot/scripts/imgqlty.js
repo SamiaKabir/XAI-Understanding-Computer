@@ -90,6 +90,7 @@ function txtfilename(){
 function start_over(){
 
     if (confirm("Are you sure you want to start over?") == true) {
+            WriteFile();
 	    results_json  = []
 		highlight_data = []
 		txtfiles = []

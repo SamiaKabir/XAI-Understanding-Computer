@@ -431,6 +431,8 @@ label.star:before {
   font-family: FontAwesome;
 }
 
+<<<<<<< HEAD
+
 .btn {
   box-shadow: 4px 2px 4px rgba(102, 83, 54, 0.27);
 }
@@ -524,6 +526,7 @@ button#btnContinue {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
+
 ul {
   list-style: none;
   display: block;
@@ -535,3 +538,4 @@ ul li {
   width: 85px;
   text-align: center;
 }
+
