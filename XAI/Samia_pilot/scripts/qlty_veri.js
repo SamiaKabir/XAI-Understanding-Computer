@@ -107,6 +107,25 @@ function start_over(){
 function nextImage() {
 
 	save_json();     // if ((ct > 0) & (saved == 0)) save_json();
+        if(doc_num==100){
+           //if (confirm("Are you sure you want to start over?") == true) {
+           
+            WriteFile();
+    
+            
+	         results_json  = []
+		highlight_data = []
+		txtfiles = []
+		ct = 0;
+		saved = 1;
+		readfiles = []
+		txtfilename();
+                alert("Thank you for taking part in the study!");
+		location.href="../expevl.html"
+	//}
+}
+
+ 
 
     $('input[name=star]').prop('checked', false);
 
@@ -182,7 +201,7 @@ function getCookie(cname) {
 
 function image_title(){
     obj = imageName.toString().split(".")[0].slice(0,-1)
-    explanation_title.text("Highlighted areas are supposed to be the most important to understand what the object is! How good do you think the highlighted area is to explain the object in this image? ( "+ doc_num+" / "+total_doc+ " )");
+    //explanation_title.text("How good do you think the highlighted area is to explain the object in this image?");
 }
 
 function showImage(image_name, update_txt) {
@@ -204,6 +223,9 @@ function showImage(image_name, update_txt) {
         var folder = "data/"+ folder_name +"_exp/";
         document.getElementById("test_img").src=  folder+image_name;
         // document.getElementById("test_img").src= ".."+image_name;
+
+        var folder_raw = "data/"+ "noall" +"_exp/";
+        document.getElementById("raw_img").src=  folder_raw+image_name;
 }
 
 
@@ -310,6 +332,8 @@ var rating = 0;
 var r1;
 var r2;
 var r3;
+var r4;
+var r5;
 var Value_radio;
 
 function save_json(){  
@@ -317,9 +341,13 @@ function save_json(){
           r1= document.getElementById("star-1");
           r2= document.getElementById("star-2");
           r3= document.getElementById("star-3");
-          if(r1.checked) Value_radio="Good";
-          if(r2.checked) Value_radio="NotSure";
-          if(r3.checked) Value_radio="Bad";
+          r4= document.getElementById("star-4");
+          r5= document.getElementById("star-5");
+          if(r1.checked) Value_radio=5;
+          if(r2.checked) Value_radio=4;
+          if(r3.checked) Value_radio=3;
+          if(r4.checked) Value_radio=2;
+          if(r5.checked) Value_radio=1;
    
          // Value_radio=  document.getElementById("star-1").value; 
 
@@ -450,14 +478,14 @@ var w_size = window,
 	// 					    .call(draw)   // Line highlighter
 
 
-	var explanation_title = d3.select("#panel").append("g").append("text").attr("class","explanation_title")
-			  .style("font-weight", "bold")
-			  .style("font-size", "15px")
-			  .style("font-family","Viga")
-			  .text("Please rate how fine is the highlighted area of this image to explain the object in this image.")
-			  .attr('dy','0.35em')
-			  .attr("x", explanation_x)
-			  .attr("y", explanation_y);
+	//var explanation_title = d3.select("#panel").append("g").append("text").attr("class","explanation_title")
+	//		  .style("font-weight", "bold")
+	//		  .style("font-size", "15px")
+	//		  .style("font-family","Viga")
+	//		  .text("Please rate how fine is the highlighted area of this image to explain the object in this image.")
+	//		  .attr('dy','0.35em')
+	//		  .attr("x", explanation_x)
+	//		  .attr("y", explanation_y);
 
 	// var explanation_frame = svg.append("g").append("rect").attr("class","explanation_frame")
 	// 				.attr("x", explanation_x)
