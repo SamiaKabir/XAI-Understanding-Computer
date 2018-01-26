@@ -113,13 +113,12 @@ function start_over(){
 
 function nextImage() {
 
-              
-     document.getElementById("next").disabled= true;
+             
      document.getElementById("next2").disabled= true;
      setTimeout(delay,1500);
 
      
-     function delay(){document.getElementById("next").disabled= false; document.getElementById("next2").disabled= false;} 
+     function delay(){ document.getElementById("next2").disabled= false;} 
 
 
 
@@ -203,21 +202,9 @@ function image_title(){
     explanation_title.text("Highlighted area shows which regions of the image were important for the Artificial Intelligence to identify this object: ( "+ doc_num+" / "+total_doc+ " )");
     if(doc_num<=20)
     {
-     if(accuracy==1)
-     { 
-          if(doc_num==2|| doc_num==5 || doc_num==9 || doc_num==13 || doc_num==14 || doc_num==16 || doc_num==19){
-          	       label_title.text("It's a Cat");
-          }
-         
-          else
-                   label_title.text("It's a Dog");
-
-
-     }
-
      if(accuracy==2)
      {
-          if(doc_num==7){
+          if(doc_num==2 || doc_num==5 || doc_num==9 || doc_num==7 || doc_num==12 || doc_num==13 || doc_num==15 || doc_num==17 || doc_num==20 ){
           	       label_title.text("It's a Cat");
           }
          
@@ -226,26 +213,14 @@ function image_title(){
 
 
      }
-     label_title.text("It's a Dog");
+     else label_title.text("It's a Dog");
 
     }
     else
     {
-    if(accuracy==1)
-     { 
-          if(doc_num==22|| doc_num==25 || doc_num==29 || doc_num==33 || doc_num==34 || doc_num==36 || doc_num==39){
-          	       label_title.text("It's a Dog");
-          }
-         
-          else
-                   label_title.text("It's a Cat");
-
-
-     }
-
-     if(accuracy==2)
+    if(accuracy==2)
      {
-          if(doc_num==26){
+          if(doc_num==22 || doc_num==25 || doc_num==29 || doc_num==26 || doc_num==32 || doc_num==33 || doc_num==35 || doc_num==37 || doc_num==40 ){
           	       label_title.text("It's a Dog");
           }
          
@@ -254,7 +229,7 @@ function image_title(){
 
 
      }
-     label_title.text("It's a Cat");
+     else label_title.text("It' a Cat");
 
 
 

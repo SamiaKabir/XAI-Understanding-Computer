@@ -38,7 +38,7 @@
             <tr>
                
               <div id="label" style="margin:auto;">
-                <i class="fa fa-laptop" style="font-size:48px;color:grey;padding-left: 2%"></i>
+                <i class="fa fa-laptop" style="font-size:48px;color:grey;padding-left: 2%;margin-right:4%;"></i>
 
               </div>
             </tr>
@@ -47,7 +47,7 @@
              
                 <br>
                 <br>
-                <div class = image>
+                <div class = image style="width:50%;margin-left:25%">
                   <img  id= test_img src="../template/edit.png" class="img-thumbnail" width="200">
                 </div>
 
@@ -65,13 +65,13 @@
   <script id= maincode src="./scripts/no_qlty.js"></script> 
     <script>
      window.onload=function (){
-     document.getElementById("next").disabled= true;
+     
      document.getElementById("next2").disabled= true;
      setTimeout(delay,1500);
      }
 
      
-     function delay(){document.getElementById("next").disabled= false; document.getElementById("next2").disabled= false; }
+     function delay(){ document.getElementById("next2").disabled= false; }
 
   </script> 
 </body>

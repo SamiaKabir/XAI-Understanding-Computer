@@ -42,7 +42,7 @@
             <tr>
               <th colspan= "2"> 
               <div id="label"  >
-                <i class="fa fa-laptop" style="font-size:48px;color:grey;padding-left: 0%"></i>
+                <i class="fa fa-laptop" style="font-size:48px;color:grey;padding-left: 0%;margin-right:4%;"></i>
 
               </div>
              <br>
@@ -71,6 +71,30 @@
               <br>
            
             </tr>
+            <tr>
+              <th colspan= "2"> <div id=panel2 style = "padding-top: 2%">
+                &nbsp;&nbsp;&nbsp;&nbsp;<div id="rating-details" class="col-md-12">How well the highlighted area explains this classification? 
+
+
+                   <div class="stars" id="label3" style="margin-left: 0px;">
+                      <form action="">  <!-- style = "margin-left: 10px" -->
+                        <ul>
+                        <li><input  id="star-3" type="radio" name="star" value="3"/>
+                        <label  for="star-3">Bad</label></li>
+                        <li><input  id="star-2" type="radio" name="star" value="2"/>
+                        <label  for="star-2">Not Sure</label></li>
+                        <li><input  id="star-1" type="radio" name="star" value="1"/>
+                        <label  for="star-1">Good</label></li>
+                        </ul>
+                      </form>
+                    </div>
+                   <br> <br> <br>
+                 </div>
+               <br> <br> <br>
+             </div>   
+            </th>  
+            </tr>
+
 
 
         </table>
@@ -86,13 +110,12 @@
 
     <script>
      window.onload=function (){
-     document.getElementById("next").disabled= true;
      document.getElementById("next2").disabled= true;
      setTimeout(delay,1500);
      }
 
      
-     function delay(){document.getElementById("next").disabled= false; document.getElementById("next2").disabled= false; }
+     function delay(){ document.getElementById("next2").disabled= false; }
     </script>
 </body>
 </html>

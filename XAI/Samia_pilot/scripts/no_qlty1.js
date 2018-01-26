@@ -114,12 +114,12 @@ function start_over(){
 function nextImage() {
 
                
-     document.getElementById("next").disabled= true;
+     
      document.getElementById("next2").disabled= true;
      setTimeout(delay,1500);
 
      
-     function delay(){document.getElementById("next").disabled= false; document.getElementById("next2").disabled= false;}
+     function delay(){ document.getElementById("next2").disabled= false;}
 
 
 
@@ -205,7 +205,7 @@ function image_title(){
     {
      if(accuracy==1)
      { 
-          if(doc_num==2|| doc_num==5 || doc_num==9 || doc_num==13 || doc_num==14 || doc_num==16 || doc_num==19){
+          if( doc_num==5 || doc_num==12 || doc_num==10 || doc_num==14 || doc_num==15 || doc_num==20 || doc_num==18){
           	       label_title.text("It's a Cat");
           }
          
@@ -215,25 +215,15 @@ function image_title(){
 
      }
 
-     if(accuracy==2)
-     {
-          if(doc_num==7){
-          	       label_title.text("It's a Cat");
-          }
-         
-          else
-                   label_title.text("It's a Dog");
 
-
-     }
-     label_title.text("It's a Dog");
+     else label_title.text("It's a Dog");
 
     }
     else
     {
     if(accuracy==1)
      { 
-          if(doc_num==22|| doc_num==25 || doc_num==29 || doc_num==33 || doc_num==34 || doc_num==36 || doc_num==39){
+          if(doc_num==25|| doc_num==32 || doc_num==30 || doc_num==34 || doc_num==35 || doc_num==38 || doc_num==40){
           	       label_title.text("It's a Dog");
           }
          
@@ -243,18 +233,7 @@ function image_title(){
 
      }
 
-     if(accuracy==2)
-     {
-          if(doc_num==26){
-          	       label_title.text("It's a Dog");
-          }
-         
-          else
-                   label_title.text("It's a Cat");
-
-
-     }
-     label_title.text("It's a Cat");
+     else label_title.text("It' a Cat");
 
 
 
