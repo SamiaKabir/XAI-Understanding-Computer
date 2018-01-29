@@ -27,50 +27,64 @@
         <h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>
     </nav>
 
-    <div class="row" id="exit_button" > <button id="exit2" class="btn btn-edited" onclick="start_over()">End study</button> </div>
+ 
 
 
-  <div id="chartDiv">
-        <br><br><br>
-        <table>
-            <tr>
-              <div id=panel style = "padding-top: 2%"></div>     
-            </tr>
-
+        <div id="chartDiv">
+        <br>
+        <table styel="width:80%;">
                  <tr>
+                 <th colspan= "2">
                 <div id='palette' style = "margin-top: 0%; margin-left: 2%;">
-                  <!-- <div id="rating-details" class="col-md-12">How do you rate this classification? -->
-                    <div class="stars" id="label" style="margin-left: 0px;">
+                   <!-- <div id="rating" class="col-md-12">Please Give your opinion: &nbsp; &nbsp;&nbsp; &nbsp;-->
+                    <!-- <h3 style = "display: inline-block"> Please give your opinion &nbsp; &nbsp;&nbsp; &nbsp; </h3> -->
+                    <div class="stars"  style="margin-left: 25%;">
                       <form action="">  <!-- style = "margin-left: 10px" -->
                         <ul>
-
+                        <li> Bad </li>
+                        <li><input  id="star-5" type="radio" name="star" value="5"/>
+                        </li>
+                        <li><input  id="star-4" type="radio" name="star" value="4"/>
+                        </li>
                         <li><input  id="star-3" type="radio" name="star" value="3"/>
-                        <label  for="star-3">Bad</label></li>
+                        </li>
                         <li><input  id="star-2" type="radio" name="star" value="2"/>
-                        <label  for="star-2">Not Sure</label></li>
+                        </li>
                         <li><input  id="star-1" type="radio" name="star" value="1"/>
-                        <label  for="star-1">Good</label></li>
+                        </li>
+                        <li> Good </li>
                         </ul>
                       </form>
                     </div>
-                  <!-- </div> -->
+                 <!-- </div> -->
                   <!-- <button id='clear' style="float:right; margin-right: 30%" >Clear</button> -->
 
 
-                </div>    
+                </div>  
+              </th>  
             </tr>
-            <tr>              
-                <!-- <svg id="img_box" class="img_box">
-                    <image id= "img_exp" class="img_exp" xlink:href=""/> 
-                </svg>   -->
+             <tr>              
+              
+             </br>
+             </br>
 
+                <td>
+                 <div class = image>
+                   <br>
+                  <img id= raw_img  src="../template/raw.png"  class="img-thumbnail" width="400" >
+                 </div>
+                  <br>
+               </td>
+
+                <td>
+                <div class = image> 
                 <br>
-                <br>
-                <div class = image style="width:50%;margin-left:25%;" >
-                  <img  id= test_img src="../template/edit.png" class="img-thumbnail" width="400" >
+                  <img id= test_img src="../template/edit.png" class="img-thumbnail" width="400">
                 </div>
                 <br>
-                <br>
+                </td>
+              <br>
+           
             </tr>
 
 
@@ -78,7 +92,6 @@
   </div>
 
     <div id="nextbutton" > <button class="btn btn-edited" id="next2" onclick="nextImage()">Next Image</button> </div>
-    <div id="backbutton" > <button class="btn btn-edited" id="prev2" onclick="lastImage()">Previous Image</button> </div>
 
 
     <script id= maincode src="./scripts/qlty_veri.js"></script>
