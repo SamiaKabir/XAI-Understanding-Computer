@@ -49,7 +49,7 @@ nav h1, nav span {
     float: left;
 }
 
-#image-div img {
+.one-image-style {
     height: 100%;
     width:auto;
     display: block;
