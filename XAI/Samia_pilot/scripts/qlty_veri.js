@@ -110,10 +110,10 @@ function nextImage() {
         if(doc_num==100){
            //if (confirm("Are you sure you want to start over?") == true) {
            
-            WriteFile();
+        WriteFile();
     
             
-	         results_json  = []
+	    results_json  = []
 		highlight_data = []
 		txtfiles = []
 		ct = 0;

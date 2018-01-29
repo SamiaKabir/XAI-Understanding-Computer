@@ -324,6 +324,7 @@ function save_json(){
 	date_1= new Date();
 	// for (var i=0;i<highlight_data.length;i++){
 	if (rating > 0) results_json.push({date: date_1, image: imageName, rating: rating})// contour: i+1, points: highlight_data[i]})
+        else rating=0;
 	// console.log("rate", rating)
 	// }
 	saved = 1;
