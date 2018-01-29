@@ -120,7 +120,7 @@ function nextImage() {
 		saved = 1;
 		readfiles = []
 		txtfilename();
-                alert("Thank you for taking part in the study!");
+              //  alert("Thank you for taking part in the study!");
 		location.href="../expevl.html"
 	//}
 }

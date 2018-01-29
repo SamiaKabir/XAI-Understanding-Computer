@@ -105,6 +105,21 @@ function start_over(){
 function nextImage() {
 
 	save_json();     // if ((ct > 0) & (saved == 0)) save_json();
+        if(doc_num==50){
+       
+                WriteFile();  
+                console.log(doc_num);  
+	        results_json  = []
+		highlight_data = []
+		txtfiles = []
+		ct = 0;
+		saved = 1;
+		readfiles = []
+		txtfilename();
+                //alert("Thank you for taking part in the study!");
+		location.href="../expevl.html"
+        }
+
 
     $('input[name=star]').prop('checked', false);
 
@@ -113,7 +128,7 @@ function nextImage() {
 			readfiles.push(txtfiles[i])
 			
 			showImage(txtfiles[i], 0);
-            rating = 0; 
+                        rating = 0; 
 
 			imageName = txtfiles[i].split("/").pop();
 			doc_num =i + 1;

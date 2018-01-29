@@ -431,6 +431,8 @@ label.star:before {
   font-family: FontAwesome;
 }
 
+<<<<<<< HEAD
+
 .btn {
   box-shadow: 4px 2px 4px rgba(102, 83, 54, 0.27);
 }
@@ -520,10 +522,6 @@ button#exit2 {
   border-top-right-radius: 0px;
 }
 
-button#save {
-  border-bottom-right-radius: 0px;
-  border-top-left-radius: 0px;
-}
 button#btnContinue {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -540,20 +538,4 @@ ul li {
   width: 50px;
   text-align: center;
 }
-div#palette {
-  margin-top: 0%;
-  margin-left: 10%;
-  width: 23%;
-  border-style: solid;
-  border-color: #bfbcbc;
-  border-width: 0.5px;
-  border-radius: 5px;
-  background-color: rgba(151, 195, 244, 0.51);
-  box-shadow: 3px 2px 7px rgba(102, 83, 54, 0.25);
 
-}
-
-div#save-to-file {
-  margin-right: 10%;
-  float: right;
-}
