@@ -101,8 +101,9 @@ function txtfilename(){
 
 function start_over(){
 
+    WriteFile();
     if (confirm("Are you sure you want to start over?") == true) {
-	    results_json  = []
+	        results_json  = []
 		highlight_data = []
 		txtfiles = []
 		ct = 0;
@@ -114,6 +115,28 @@ function start_over(){
 }
 
 function nextImage() {
+
+
+
+        save_json();     // if ((ct > 0) & (saved == 0)) save_json();
+        if(doc_num==50){
+           //if (confirm("Are you sure you want to start over?") == true) {
+           
+            WriteFile();
+    
+            
+	         results_json  = []
+		highlight_data = []
+		txtfiles = []
+		ct = 0;
+		saved = 1;
+		readfiles = []
+		txtfilename();
+              //  alert("Thank you for taking part in the study!");
+		location.href="../expevl.html"
+	//}
+       }
+
        
        
      document.getElementById("next2").disabled= true;
@@ -372,12 +395,33 @@ $(document).ready(function() {
 });
 
 
+var r1;
+var r2;
+var r3;
+var r4;
+var r5;
+var Value_radio;
+var Value_radio1;
+
 function save_json(){  
+
+          r1= document.getElementById("star-1");
+          r2= document.getElementById("star-2");
+          r3= document.getElementById("star-3");
+          r4= document.getElementById("star-4");
+          r5= document.getElementById("star-5");
+          if(r1.checked) Value_radio=3;
+          if(r2.checked) Value_radio=2;
+          if(r3.checked) Value_radio=1;
+          if(r4.checked) Value_radio1=2;
+          if(r5.checked) Value_radio1=1;
+   
+         // Value_radio=  document.getElementById("star-1").value; 
 
 	
 	// for (var i=0;i<highlight_data.length;i++){
-	if (rating > 0) results_json.push({image: imageName, rating: rating})// contour: i+1, points: highlight_data[i]})
-	console.log("rate", rating)
+	results_json.push({image: imageName,value1: Value_radio1, value2: Value_radio})// contour: i+1, points: highlight_data[i]})
+	//console.log("Value",Value_radio);
 	// }
 	saved = 1;
 }
@@ -389,10 +433,11 @@ function WriteFile(){
 	var jsonContent = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(results_json));
 	var a = document.createElement('a');
 	a.href = 'data:' + jsonContent;
-	a.download = 'results.json';
+	a.download = 'results_qual.json';
 	a.innerHTML = 'End Study';
 	a.click();
 }
+
 
 // function saveIt(){  
     
