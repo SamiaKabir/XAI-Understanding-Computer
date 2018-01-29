@@ -37,7 +37,7 @@ nav h1, nav span {
 #main-div {
     width:95%;
     height: 100%;
-    background-color: lawngreen;
+    background-color: white;
     float: left;
     margin: 0px;
 }
@@ -45,7 +45,7 @@ nav h1, nav span {
 #image-div {
     width: 100%;
     height: 85%;
-    background-color: #5bc0de;
+    background-color: rgba(91, 192, 222, 0.7);
     float: left;
 }
 
@@ -66,7 +66,7 @@ nav h1, nav span {
 #stars {
     width: 100%;
     height: 15%;
-    background-color: #5bc0de;
+    background-color: rgba(91, 192, 222, 0.7);
     float: left;
     border-bottom-left-radius: 5px;
     text-align: center;
@@ -75,7 +75,7 @@ nav h1, nav span {
 #button-div {
     width: 5%;
     height: 100%;
-    background-color: aquamarine;
+    background-color: white;
     margin-left: 95%;
 }
 
@@ -163,5 +163,12 @@ input {
 #temp {
     margin: auto;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+#temp-quiz {
+    margin: auto;
+    display: inline-block;
+    margin-top: 30px;
+    width:75%;
 }

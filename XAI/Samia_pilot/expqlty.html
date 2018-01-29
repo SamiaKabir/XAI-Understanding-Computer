@@ -21,7 +21,6 @@
 
 <body>
 <nav class="navbar navbar-light">
-    <!--<h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>-->
 </nav>
 <div class="chart-div">
     <div id="main-div">
@@ -29,17 +28,13 @@
             <img  id="test_img" src="../template/edit.png" class="img-thumbnail one-image-style">
         </div>
         <div id="stars">
-            <div id="palette" >
-                <div class="stars">
-                    <form >
-                        <ul>
-                        <li><input  id="star-2" type="radio" name="star" value="1"/>
-                        <label  for="star-2">No &nbsp;</label></li>
-                        <li><input  id="star-1" type="radio" name="star" value="2"/>
-                        <label  for="star-1">Yes</label></li>
-                        </ul>
-                    </form>
-                </div>
+            <div id="temp-quiz" class="btn-group btn-group-justified colors" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input id="star-2" type="radio" name="star" value="1" autocomplete="off"> No
+                </label>
+                <label class="btn btn-primary">
+                    <input id="star-1" type="radio" name="star" value="2" autocomplete="off"> Yes
+                </label>
             </div>
         </div>
     </div>
