@@ -43,7 +43,7 @@ nav h1, nav span {
 }
 
 #image-div {
-    width:100%;
+    width: 100%;
     height: 85%;
     background-color: #5bc0de;
     float: left;
@@ -56,12 +56,20 @@ nav h1, nav span {
     margin:auto;
 }
 
+.two-image-style {
+    height: 50%;
+    width:auto;
+    display: block;
+    margin:auto;
+}
+
 #stars {
     width: 100%;
     height: 15%;
     background-color: #5bc0de;
     float: left;
     border-bottom-left-radius: 5px;
+    text-align: center;
 }
 
 #button-div {
@@ -130,4 +138,30 @@ div#palette {
 .btn-primary {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
+}
+
+
+ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+ul li {
+    font-size: 15px;
+    color: #25293e;
+    float: left;
+    display: block;
+    width: 40px;
+    text-align: center;
+}
+
+input {
+    margin: 1px;
+}
+
+#temp {
+    margin: auto;
+    display: inline-block;
+    margin-top: 50px;
 }
