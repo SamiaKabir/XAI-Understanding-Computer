@@ -148,8 +148,6 @@ function nextImage() {
 		}
 	}
 
-	
-
 }
 
 function lastImage() {
