@@ -129,9 +129,20 @@ function nextImage() {
         rad4.checked=false;
         rad5.checked=false;
 
+		var lab1 = document.getElementById("s1");
+		var lab2 = document.getElementById("s2");
+		var lab3 = document.getElementById("s3");
+		var lab4 = document.getElementById("s4");
+		var lab5 = document.getElementById("s5");
+
+		lab1.className = "btn btn-info";
+		lab2.className = "btn btn-info";
+		lab3.className = "btn btn-info";
+		lab4.className = "btn btn-info";
+		lab5.className = "btn btn-info";
 
 
-        if(doc_num==50){
+    if(doc_num==50){
            //if (confirm("Are you sure you want to start over?") == true) {
            
             WriteFile();

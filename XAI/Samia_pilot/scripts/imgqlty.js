@@ -110,7 +110,11 @@ function nextImage() {
      var rad2= document.getElementById("star-2");
      rad1.checked=false;
      rad2.checked=false;
+     var lab1 = document.getElementById("s1");
+     var lab2 = document.getElementById("s2");
 
+     lab1.className = "btn btn-primary";
+     lab2.className = "btn btn-primary";
 
        if(doc_num==50){
        
