@@ -120,6 +120,23 @@ function nextImage() {
 		location.href="../expevl.html"
         }
 
+           
+     document.getElementById("next2").disabled= true;
+     setInterval(delay,900);
+    
+
+     
+     function delay(){ 
+
+     var rad1= document.getElementById("star-1");
+     var rad2= document.getElementById("star-2");
+     if((rad1.checked)||(rad2.checked))     {
+        document.getElementById("next2").disabled= false;
+        console.log("jmhg");
+    }
+ 
+    } 
+
 
     $('input[name=star]').prop('checked', false);
 
