@@ -116,6 +116,20 @@ function start_over(){
 function nextImage() {
 
          save_json();     // if ((ct > 0) & (saved == 0)) save_json();
+        
+        var rad1= document.getElementById("star-1");
+        var rad2= document.getElementById("star-2");
+        var rad3= document.getElementById("star-3");
+        var rad4= document.getElementById("star-4");
+        var rad5= document.getElementById("star-5");
+        rad1.checked=false;
+        rad2.checked=false;
+        rad3.checked=false;
+        rad4.checked=false;
+        rad5.checked=false;
+
+
+
         if(doc_num==50){
            //if (confirm("Are you sure you want to start over?") == true) {
            
@@ -134,15 +148,21 @@ function nextImage() {
 	//}
        }
         
-     
-
-
-
      document.getElementById("next2").disabled= true;
-     setTimeout(delay,1500);
+     setInterval(delay,900);
+    
 
      
-     function delay(){ document.getElementById("next2").disabled= false;}
+     function delay(){ 
+
+     if(((rad1.checked)||(rad2.checked)||(rad3.checked))&&((rad4.checked)||(rad5.checked)))
+     {
+        document.getElementById("next2").disabled= false;
+        console.log("jmhg");
+     }
+    }
+ 
+
 
 
 
@@ -229,17 +249,17 @@ function image_title(){
      if(accuracy==1)
      { 
           if( doc_num==5 || doc_num==12 || doc_num==10 || doc_num==14 || doc_num==15 || doc_num==20 || doc_num==18){
-          	       label_title.text("The computer categorized this picture as a Cat!");
+          	       label_title.text("The computer categorized this picture as a Cat");
           }
          
           else
-                   label_title.text("The computer categorized this picture as a Dog!");
+                   label_title.text("The computer categorized this picture as a Dog");
 
 
      }
 
 
-     else label_title.text("The computer categorized this picture as a Dog!");
+     else label_title.text("The computer categorized this picture as a Dog");
 
     }
     else
@@ -247,16 +267,16 @@ function image_title(){
     if(accuracy==1)
      { 
           if(doc_num==25|| doc_num==32 || doc_num==30 || doc_num==34 || doc_num==35 || doc_num==38 || doc_num==40){
-          	       label_title.text("The computer categorized this picture as a Dog!");
+          	       label_title.text("The computer categorized this picture as a Dog");
           }
          
           else
-                   label_title.text("The computer categorized this picture as a Cat!");
+                   label_title.text("The computer categorized this picture as a Cat");
 
 
      }
 
-     else label_title.text("The computer categorized this picture as a Cat!");
+     else label_title.text("The computer categorized this picture as a Cat");
 
 
 
@@ -281,7 +301,7 @@ function showImage(image_name, update_txt) {
   //           $(".img_box").attr("margin","0 auto");
   //           }
         var folder = "data/"+ folder_name +"_exp/";
-        document.getElementById("test_img").src=  folder+image_name;
+        document.getElementById("raw_img").src=  folder+image_name;
 
 }
 
@@ -559,7 +579,7 @@ var w_size = window,
 	var label_title = d3.select("#label").append("g").append("text").attr("class","label_title")
 			  .style("font-weight", "bold")
 			  .style("font-size", "15px")
-			  .text("The computer categorized this picture as a Dog!")
+			  .text("Cat or Dog")
 			  .attr('dy','0.35em')
 			  .attr("x", label_x)
 			  .attr("y", label_y);		 

@@ -105,7 +105,14 @@ function start_over(){
 function nextImage() {
 
 	save_json();     // if ((ct > 0) & (saved == 0)) save_json();
-        if(doc_num==50){
+        
+     var rad1= document.getElementById("star-1");
+     var rad2= document.getElementById("star-2");
+     rad1.checked=false;
+     rad2.checked=false;
+
+
+       if(doc_num==50){
        
                 WriteFile();  
                 console.log(doc_num);  
@@ -119,6 +126,22 @@ function nextImage() {
                 //alert("Thank you for taking part in the study!");
 		location.href="../expevl.html"
         }
+
+           
+     document.getElementById("next2").disabled= true;
+     setInterval(delay,900);
+    
+
+     
+     function delay(){ 
+
+
+     if((rad1.checked)||(rad2.checked))     {
+        document.getElementById("next2").disabled= false;
+        console.log("jmhg");
+    }
+ 
+    } 
 
 
     $('input[name=star]').prop('checked', false);
