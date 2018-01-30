@@ -17,7 +17,7 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/tempStyles.css">
  
 </head>
 
@@ -25,103 +25,158 @@
 
 
 
-<body>
-    <nav class="navbar navbar-light">
-    <h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>
-    </nav>
- 
-  <div id="chartDiv">
+<!--<body>-->
+    <!--<nav class="navbar navbar-light">-->
+    <!--<h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>-->
+    <!--</nav>-->
+ <!---->
+  <!--<div id="chartDiv">-->
 
-        <table>
-            <tr>
-              <th colspan= "2"> <div id=panel style = "padding-top: 2%"></div>   </th>  
-            </tr>
-            <tr>
-              <th colspan= "2"> 
-              <div id="label">
-                <i class="fa fa-laptop" style="font-size:48px;color:grey;padding-left: 0%;margin-right:4%;"></i>
+        <!--<table>-->
+            <!--<tr>-->
+              <!--<th colspan= "2"> <div id=panel style = "padding-top: 2%"></div>   </th>  -->
+            <!--</tr>-->
+            <!--<tr>-->
+              <!--<th colspan= "2"> -->
+              <!--<div id="label">-->
+                <!--<i class="fa fa-laptop" style="font-size:48px;color:grey;padding-left: 0%;margin-right:4%;"></i>-->
 
-              </div>
-             <br>
-            </th>
-            </tr>
-            
-            <tr>              
-              
-             </br>
-             </br>
+              <!--</div>-->
+             <!--<br>-->
+            <!--</th>-->
+            <!--</tr>-->
+            <!---->
+            <!--<tr>              -->
+              <!---->
+             <!--</br>-->
+             <!--</br>-->
 
-                <td>
-                 <div class = image>
-                   <br>
-                  <img id= raw_img  src="../template/raw.png"  class="img-thumbnail" width="400" >
-                 </div>
-                  <br>
-               </td>
+                <!--<td>-->
+                 <!--<div class = image>-->
+                   <!--<br>-->
+                  <!--<img id= raw_img  src="../template/raw.png"  class="img-thumbnail" width="400" >-->
+                 <!--</div>-->
+                  <!--<br>-->
+               <!--</td>-->
 
-                <td>
-                <div class = image> 
-                <br>
-                  <img id= test_img src="../template/edit.png" class="img-thumbnail" width="400">
+                <!--<td>-->
+                <!--<div class = image> -->
+                <!--<br>-->
+                  <!--<img id= test_img src="../template/edit.png" class="img-thumbnail" width="400">-->
+                <!--</div>-->
+                <!--<br>-->
+                <!--</td>-->
+              <!---->
+           <!---->
+            <!--</tr>-->
+
+              <!--<tr>-->
+              <!--<th colspan= "2"> <div id=panel2 style = "padding-top: 2%">-->
+                <!--&nbsp;&nbsp;&nbsp;&nbsp;<div id="rating-details" class="col-md-12"> -->
+
+                  <!--<p> Do You Agree with this classification?</p>-->
+                   <!--<div class="stars" id="label5" style="margin-left: 0px;">-->
+                      <!--<form action="">  &lt;!&ndash; style = "margin-left: 10px" &ndash;&gt;-->
+                        <!--<ul>-->
+                        <!--<li><input  id="star-5" type="radio" name="star" value="1"/>-->
+                        <!--<label  for="star-5">No &nbsp;&nbsp;&nbsp;</label></li>-->
+                        <!--<li><input  id="star-4" type="radio" name="star" value="2"/>-->
+                        <!--<label  for="star-4">Yes &nbsp;&nbsp;</label></li>-->
+                        <!--</ul>-->
+                      <!--</form>-->
+                    <!--</div>-->
+                <!---->
+                 <!--</div>-->
+               <!--<br> -->
+             <!--</div>   -->
+            <!--</th>  -->
+            <!--</tr>-->
+
+
+              <!--<tr>-->
+              <!--<th colspan= "2"> <div id=panel2 style = "padding-top: 2%">-->
+                <!--&nbsp;&nbsp;&nbsp;&nbsp;<div id="rating-details" class="col-md-12"> -->
+                <!--<p>How well the highlighted area helps the computer towards this classification?</p>-->
+
+                   <!--<div class="stars" id="label3" style="margin-left: 0px;">-->
+                      <!--<form action="">  &lt;!&ndash; style = "margin-left: 10px" &ndash;&gt;-->
+                        <!--<ul>-->
+                        <!--<li><input  id="star-3" type="radio" name="star" value="3"/>-->
+                        <!--<label  for="star-3">Bad &nbsp;</label></li>-->
+                        <!--<li><input  id="star-2" type="radio" name="star" value="2"/>-->
+                        <!--<label  for="star-2">Not Sure</label></li>-->
+                        <!--<li><input  id="star-1" type="radio" name="star" value="1"/>-->
+                        <!--<label  for="star-1">Good</label></li>-->
+                        <!--</ul>-->
+                      <!--</form>-->
+                    <!--</div>-->
+                   <!--<br> <br> <br>-->
+                 <!--</div>-->
+               <!--<br> <br> <br>-->
+             <!--</div>   -->
+            <!--</th>  -->
+            <!--</tr>-->
+        <!--</table>-->
+  <!--</div>-->
+
+   <!--<div id="nextbutton" > <button class="btn btn-edited" id="next2" onclick="nextImage()">Next Image</button> </div>-->
+
+  <!---->
+<nav class="navbar navbar-light">
+    <!--<h1 id="page-header" class="pull-left"> <span class="glyphicon glyphicon-sunglasses"></span> INDIE Lab</h1>-->
+</nav>
+<div class="chart-div">
+    <div id="main-div">
+        <div id="image-div">
+            <img  id= "raw_img" class="two-image-style-tutorials img-thumbnail" src="../template/edit.png">
+            <img  id= "test_img" class="two-image-style-tutorials img-thumbnail" src="../template/edit.png">
+            <!--<div id="label"></div>-->
+            <div class="input-group input-group-sm" id="classification">
+                <span class="input-group-addon" id="label"></span>
+            </div>
+        </div>
+        <div id="stars">
+            <div class="input-group mb-3 questions">
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="input-group input-group-sm">
+                        <span class="input-group-addon"> Do You Agree with this classification? </span>
+                        <div class="btn-group btn-group-md colors temp" data-toggle="buttons">
+                            <label class="btn btn-info">
+                                <input id="star-5" type="radio" name="star" value="1" autocomplete="off" checked> No
+                            </label>
+                            <label class="btn btn-info">
+                                <input id="star-4" type="radio" name="star" value="2" autocomplete="off"> Yes
+                            </label>
+                        </div>
+                    </div>
                 </div>
-                <br>
-                </td>
-              
-           
-            </tr>
-
-              <tr>
-              <th colspan= "2"> <div id=panel2 style = "padding-top: 2%">
-                &nbsp;&nbsp;&nbsp;&nbsp;<div id="rating-details" class="col-md-12"> 
-
-                  <p> Do You Agree with this classification?</p>
-                   <div class="stars" id="label5" style="margin-left: 0px;">
-                      <form action="">  <!-- style = "margin-left: 10px" -->
-                        <ul>
-                        <li><input  id="star-5" type="radio" name="star" value="1"/>
-                        <label  for="star-5">No &nbsp;&nbsp;&nbsp;</label></li>
-                        <li><input  id="star-4" type="radio" name="star" value="2"/>
-                        <label  for="star-4">Yes &nbsp;&nbsp;</label></li>
-                        </ul>
-                      </form>
+            </div>
+            <div class="input-group mb-3 questions">
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="input-group input-group-sm">
+                        <span class="input-group-addon"> How well the highlighted area helps the computer towards this classification?</span>
+                        <div class="btn-group btn-group-md colors temp" data-toggle="buttons">
+                            <label class="btn btn-info">
+                                <input id="star-3" type="radio" name="star" value="3" autocomplete="off"> Bad
+                            </label>
+                            <label class="btn btn-info">
+                                <input id="star-2" type="radio" name="star" value="2" autocomplete="off" checked> Not Sure
+                            </label>
+                            <label class="btn btn-info">
+                                <input id="star-1" type="radio" name="star" value="1" autocomplete="off" checked> Good
+                            </label>
+                        </div>
                     </div>
-                
-                 </div>
-               <br> 
-             </div>   
-            </th>  
-            </tr>
-
-
-              <tr>
-              <th colspan= "2"> <div id=panel2 style = "padding-top: 2%">
-                &nbsp;&nbsp;&nbsp;&nbsp;<div id="rating-details" class="col-md-12"> 
-                <p>How well the highlighted area helps the computer towards this classification?</p>
-
-                   <div class="stars" id="label3" style="margin-left: 0px;">
-                      <form action="">  <!-- style = "margin-left: 10px" -->
-                        <ul>
-                        <li><input  id="star-3" type="radio" name="star" value="3"/>
-                        <label  for="star-3">Bad &nbsp;</label></li>
-                        <li><input  id="star-2" type="radio" name="star" value="2"/>
-                        <label  for="star-2">Not Sure</label></li>
-                        <li><input  id="star-1" type="radio" name="star" value="1"/>
-                        <label  for="star-1">Good</label></li>
-                        </ul>
-                      </form>
-                    </div>
-                   <br> <br> <br>
-                 </div>
-               <br> <br> <br>
-             </div>   
-            </th>  
-            </tr>
-        </table>
-  </div>
-
-   <div id="nextbutton" > <button class="btn btn-edited" id="next2" onclick="nextImage()">Next Image</button> </div>
-
-  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="button-div">
+        <button type="button" class="btn btn-primary btn-sm" onclick="nextImage()">
+            <i class="fa fa-angle-right fa-5x" aria-hidden="true"></i>
+        </button>
+    </div>
+</div>
   <script id= maincode src="./scripts/qlty_show.js"></script>
   <script>
      window.onload=function (){
