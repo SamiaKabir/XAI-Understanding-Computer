@@ -6,11 +6,12 @@
 <head>
 <title>Explainable Machine Learning (XAI)</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="./libraries/bootstrap.js"></script>
+  <!--<link rel="stylesheet" href="./styles/style.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="./libraries/bootstrap.js"></script>
+   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"><script src="./libraries/bootstrap.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -18,12 +19,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/tempStyles.css">
- 
+
 </head>
 <body>
 
 <nav class="navbar navbar-light">
-    </nav>
+</nav>
 <div class="chart-div">
     <div id="main-div">
         <div id="image-div">
@@ -34,34 +35,34 @@
             </div>
         </div>
         <div id="stars">
-            <div class="input-group mb-3 questions">
+            <div class="input-group mb-3 questions" id="label5"  >
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                    <div class="input-group input-group-sm">
-                        <span class="input-group-addon"> Do You Agree with this classification? </span>
-                        <div class="btn-group btn-group-md colors temp" data-toggle="buttons">
+                    <div class="input-group input-group-sm" >
+                        <span class="input-group-addon" > Do You Agree with this classification? </span>
+                        <div class="btn-group btn-group-md colors temp"  data-toggle="buttons">
                             <label class="btn btn-info">
-                                <input id="star-5" type="radio" name="star" value="1" autocomplete="off" checked> No
+                                <input id="star-5" type="radio"  value="4" autocomplete="off"> No
                             </label>
                             <label class="btn btn-info">
-                                <input id="star-4" type="radio" name="star" value="2" autocomplete="off"> Yes
+                                <input id="star-4" type="radio"  value="5" autocomplete="off"> Yes
                             </label>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="input-group mb-3 questions">
+            <div class="input-group mb-3 questions" id="label4" >
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                    <div class="input-group input-group-sm">
-                        <span class="input-group-addon"> How well the highlighted area helps the computer towards this classification?</span>
-                        <div class="btn-group btn-group-md colors temp" data-toggle="buttons">
+                    <div class="input-group input-group-sm" >
+                        <span class="input-group-addon" > How well the highlighted area helps the computer towards this classification?</span>
+                        <div class="btn-group btn-group-md colors temp"  data-toggle="buttons" >
                             <label class="btn btn-info">
-                                <input id="star-3" type="radio" name="star" value="3" autocomplete="off"> Bad
+                                <input id="star-3" type="radio"  value="3" autocomplete="off"> Bad
                             </label>
                             <label class="btn btn-info">
-                                <input id="star-2" type="radio" name="star" value="2" autocomplete="off" checked> Not Sure
+                                <input id="star-2" type="radio" value="2" autocomplete="off"> Not Sure
                             </label>
                             <label class="btn btn-info">
-                                <input id="star-1" type="radio" name="star" value="1" autocomplete="off"> Good
+                                <input id="star-1" type="radio" value="1" autocomplete="off"> Good
                             </label>
                         </div>
                     </div>
@@ -75,7 +76,8 @@
         </button>
     </div>
 </div>
-<script id= maincode src="./scripts/qlty_show.js"></script>
+<script id= maincode src="./scripts/qlty_show1.js"></script>
+
   <script>
      window.onload=function (){
      
@@ -97,9 +99,9 @@
         console.log("jmhg");
      }
 
-
  }
 
   </script> 
+
 </body>
 </html>
