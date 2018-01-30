@@ -136,25 +136,20 @@ function nextImage() {
 	//}
        }
 
+
+
+
+              
+     
      document.getElementById("next2").disabled= true;
-     setInterval(delay,900);
-    
+     setTimeout(delay,1500);
 
      
-     function delay(){ 
+     function delay(){document.getElementById("next2").disabled= false;} 
 
-     var rad1= document.getElementById("star-1");
-     var rad2= document.getElementById("star-2");
-     var rad3= document.getElementById("star-3");
-     var rad4= document.getElementById("star-4");
-     var rad5= document.getElementById("star-5");
-     if(((rad1.checked)||(rad2.checked)||(rad3.checked))&&((rad4.checked)||(rad5.checked)))
-     {
-        document.getElementById("next2").disabled= false;
-        console.log("jmhg");
-     }
-    }
- 
+
+
+    save_json();     // if ((ct > 0) & (saved == 0)) save_json();
 
     $('input[name=star]').prop('checked', false);
 

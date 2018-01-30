@@ -125,27 +125,12 @@
   <script id= maincode src="./scripts/qlty_show.js"></script>
   <script>
      window.onload=function (){
-     
      document.getElementById("next2").disabled= true;
-     setInterval(delay,900);
-    }
-
-     
-     function delay(){ 
-
-     var rad1= document.getElementById("star-1");
-     var rad2= document.getElementById("star-2");
-     var rad3= document.getElementById("star-3");
-     var rad4= document.getElementById("star-4");
-     var rad5= document.getElementById("star-5");
-     if(((rad1.checked)||(rad2.checked)||(rad3.checked))&&((rad4.checked)||(rad5.checked)))
-     {
-        document.getElementById("next2").disabled= false;
-        console.log("jmhg");
+     setTimeout(delay,1500);
      }
 
-
- }
+     
+     function delay(){ document.getElementById("next2").disabled= false; }
 
   </script> 
 </body>
