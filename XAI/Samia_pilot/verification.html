@@ -52,11 +52,39 @@
         </div>
     </div>
     <div id="button-div">
-        <button type="button" class="btn btn-primary btn-sm" onclick="nextImage()">
+        <button type="button" id="next2" class="btn btn-primary btn-sm" onclick="nextImage()">
             <i class="fa fa-angle-right fa-5x" aria-hidden="true"></i>
         </button>
     </div>
 </div>
 <script id= maincode src="./scripts/qlty_veri.js"></script>
+
+<script>
+    window.onload=function (){
+     
+     document.getElementById("next2").disabled= true;
+     setInterval(delay,900);
+    }
+
+     
+     function delay(){ 
+
+     var rad1= document.getElementById("star-1");
+     var rad2= document.getElementById("star-2");
+     var rad3= document.getElementById("star-3");
+     var rad4= document.getElementById("star-4");
+     var rad5= document.getElementById("star-5");
+     if(((rad1.checked)||(rad2.checked)||(rad3.checked))||((rad4.checked)||(rad5.checked)))
+     {
+        document.getElementById("next2").disabled= false;
+        console.log("jmhg");
+     }
+
+
+ }
+
+
+</script>
+
 </body>
 </html>
