@@ -56,6 +56,13 @@ nav h1, nav span {
     margin:auto;
 }
 
+.one-image-style-tutorials {
+    height: 92%;
+    width:auto;
+    display: block;
+    margin:auto;
+}
+
 .two-image-style {
     height: 50%;
     width:auto;
