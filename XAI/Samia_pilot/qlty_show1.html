@@ -3,24 +3,24 @@
 
 <meta charset="utf-8">
 
-<head>
-<title>Explainable Machine Learning (XAI)</title>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <!--<link rel="stylesheet" href="./styles/style.css">-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="./libraries/bootstrap.js"></script>
-   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"><script src="./libraries/bootstrap.js"></script>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">
+    <head>
+    <title>Explainable Machine Learning (XAI)</title>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <!--<link rel="stylesheet" href="./styles/style.css">-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="./libraries/bootstrap.js"></script>
+       <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"><script src="./libraries/bootstrap.js"></script>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+              integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/style.css">
 
-</head>
+    </head>
 
 
 
@@ -130,27 +130,12 @@
 
     <script>
      window.onload=function (){
-     
      document.getElementById("next2").disabled= true;
-     setInterval(delay,900);
-    }
-
-     
-     function delay(){ 
-
-     var rad1= document.getElementById("star-1");
-     var rad2= document.getElementById("star-2");
-     var rad3= document.getElementById("star-3");
-     var rad4= document.getElementById("star-4");
-     var rad5= document.getElementById("star-5");
-     if(((rad1.checked)||(rad2.checked)||(rad3.checked))&&((rad4.checked)||(rad5.checked)))
-     {
-        document.getElementById("next2").disabled= false;
-        console.log("jmhg");
+     setTimeout(delay,1500);
      }
 
-
- }
+     
+     function delay(){ document.getElementById("next2").disabled= false; }
     </script>
 </body>
 </html>
