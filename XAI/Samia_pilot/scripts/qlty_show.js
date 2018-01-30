@@ -229,15 +229,15 @@ function image_title(){
      if(accuracy==2)
      {
           if(doc_num==2 || doc_num==5 || doc_num==9 || doc_num==7 || doc_num==12 || doc_num==13 || doc_num==15 || doc_num==17 || doc_num==20 ){
-          	       label_title.text("It's a Cat");
+          	       label_title.text("The computer categorized this picture as a Cat!");
           }
          
           else
-                   label_title.text("It's a Dog");
+                   label_title.text("The computer categorized this picture as a Dog!");
 
 
      }
-     else label_title.text("It's a Dog");
+     else label_title.text("The computer categorized this picture as a Dog!");
 
     }
     else
@@ -245,15 +245,15 @@ function image_title(){
     if(accuracy==2)
      {
           if(doc_num==22 || doc_num==25 || doc_num==29 || doc_num==26 || doc_num==32 || doc_num==33 || doc_num==35 || doc_num==37 || doc_num==40 ){
-          	       label_title.text("It's a Dog");
+          	       label_title.text("The computer categorized this picture as a Dog!");
           }
          
           else
-                   label_title.text("It's a Cat");
+                   label_title.text("The computer categorized this picture as a Cat!");
 
 
      }
-     else label_title.text("It' a Cat");
+     else label_title.text("The computer categorized this picture as a Cat!");
 
 
 
@@ -561,7 +561,7 @@ var w_size = window,
 			  .style("font-weight", "bold")
 			  .style("font-size", "15px")
 			  .style("font-family", "Viga")
-			  .text("Cat or Dog")
+			  .text("The computer categorized this picture as a Cat!")
 			  .attr('dy','0.35em')
 			  .attr("x", label_x)
 			  .attr("y", label_y);		 
