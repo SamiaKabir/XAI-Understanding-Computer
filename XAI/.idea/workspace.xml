@@ -14,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="qlty_show.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Samia_pilot/scripts/qlty_show.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="142" column="40" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="142" selection-end-column="40" />
+            <state relative-caret-position="15">
+              <caret line="222" column="12" lean-forward="false" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style.css">
+      <file leaf-file-name="qlty_show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Samia_pilot/qlty_show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3330">
-              <caret line="222" column="12" lean-forward="false" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
+            <state relative-caret-position="114">
+              <caret line="18" column="109" lean-forward="true" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -37,18 +37,28 @@
       <file leaf-file-name="no_qlty.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Samia_pilot/no_qlty.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="125" column="115" lean-forward="true" selection-start-line="125" selection-start-column="96" selection-end-line="125" selection-end-column="115" />
+            <state relative-caret-position="235">
+              <caret line="125" column="115" lean-forward="false" selection-start-line="125" selection-start-column="96" selection-end-line="125" selection-end-column="115" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expevl.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expevl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/expevl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+            <state relative-caret-position="765">
+              <caret line="85" column="6" lean-forward="true" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expqlty.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Samia_pilot/expqlty.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="57" lean-forward="true" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -57,8 +67,8 @@
       <file leaf-file-name="no_qlty1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Samia_pilot/no_qlty1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="125" column="115" lean-forward="false" selection-start-line="125" selection-start-column="115" selection-end-line="125" selection-end-column="115" />
+            <state relative-caret-position="241">
+              <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -67,8 +77,8 @@
       <file leaf-file-name="tempStyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/tempStyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="226" column="21" lean-forward="false" selection-start-line="226" selection-start-column="21" selection-end-line="226" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="198" column="22" lean-forward="false" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -116,6 +126,7 @@
       <find>next</find>
       <find>#star</find>
       <find>image</find>
+      <find>temp</find>
     </findStrings>
     <replaceStrings>
       <replace>The computer categorized this picture as a Cat!</replace>
@@ -132,15 +143,15 @@
         <option value="$PROJECT_DIR$/Samia_pilot/scripts/qlty_show.js" />
         <option value="$PROJECT_DIR$/Samia_pilot/scripts/qlty_show1.js" />
         <option value="$PROJECT_DIR$/Samia_pilot/qlty_show1.html" />
-        <option value="$PROJECT_DIR$/Samia_pilot/expqlty.html" />
         <option value="$PROJECT_DIR$/Samia_pilot/scripts/imgqlty.js" />
         <option value="$PROJECT_DIR$/Samia_pilot/scripts/qlty_veri.js" />
         <option value="$PROJECT_DIR$/Samia_pilot/verification.html" />
         <option value="$PROJECT_DIR$/Samia_pilot/styles/style.css" />
-        <option value="$PROJECT_DIR$/Samia_pilot/styles/tempStyles.css" />
         <option value="$PROJECT_DIR$/Samia_pilot/no_qlty.html" />
         <option value="$PROJECT_DIR$/Samia_pilot/no_qlty1.html" />
         <option value="$PROJECT_DIR$/expevl.html" />
+        <option value="$PROJECT_DIR$/Samia_pilot/styles/tempStyles.css" />
+        <option value="$PROJECT_DIR$/Samia_pilot/expqlty.html" />
       </list>
     </option>
   </component>
@@ -203,8 +214,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,12 +260,13 @@
       <workItem from="1516407527782" duration="284000" />
       <workItem from="1516407960723" duration="15806000" />
       <workItem from="1516998710275" duration="5633000" />
-      <workItem from="1518808218100" duration="1632000" />
+      <workItem from="1518808218100" duration="1871000" />
+      <workItem from="1518814493295" duration="531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36457000" />
+    <option name="totallyTimeSpent" value="37227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1688" height="973" extended-state="0" />
@@ -571,28 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/expqlty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="31" column="55" lean-forward="true" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/qlty_show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="17" column="97" lean-forward="false" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/scripts/qlty_show.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="142" column="40" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="142" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Samia_pilot/scripts/qlty_veri.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
@@ -601,19 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="222" column="12" lean-forward="false" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Samia_pilot/verification.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,34 +606,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/tempStyles.css">
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/scripts/qlty_show.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="226" column="21" lean-forward="false" selection-start-line="226" selection-start-column="21" selection-end-line="226" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="150" column="12" lean-forward="true" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samia_pilot/no_qlty.html">
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/qlty_show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="125" column="115" lean-forward="true" selection-start-line="125" selection-start-column="96" selection-end-line="125" selection-end-column="115" />
+        <state relative-caret-position="114">
+          <caret line="18" column="109" lean-forward="true" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Samia_pilot/no_qlty1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="125" column="115" lean-forward="false" selection-start-line="125" selection-start-column="115" selection-end-line="125" selection-end-column="115" />
+        <state relative-caret-position="241">
+          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/no_qlty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="125" column="115" lean-forward="false" selection-start-line="125" selection-start-column="96" selection-end-line="125" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="222" column="12" lean-forward="false" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/expevl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        <state relative-caret-position="765">
+          <caret line="85" column="6" lean-forward="true" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/styles/tempStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="198" column="22" lean-forward="false" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samia_pilot/expqlty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="57" lean-forward="true" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding />
         </state>
       </provider>
