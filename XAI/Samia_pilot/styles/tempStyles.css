@@ -49,6 +49,13 @@ nav h1, nav span {
     float: left;
 }
 
+
+#image-div.no-explanation-img-div{
+    width: 100%;
+    height: 42.5%;
+    background-color: rgba(91, 192, 222, 0.7);
+    float: left;
+}
 .one-image-style {
     height: 100%;
     width:auto;
@@ -84,6 +91,10 @@ nav h1, nav span {
     float: left;
     border-bottom-left-radius: 5px;
     text-align: center;
+}
+
+#stars.no-explanation-star-div {
+    height: 57.5%;
 }
 
 #button-div {
@@ -185,6 +196,7 @@ input {
     display: inline-block;
     margin-top: 30px;
     width:75%;
+    margin-top: 100px;
 }
 
 
@@ -206,4 +218,12 @@ input {
 #classification {
     margin: auto;
     margin-top: 5px;
+}
+
+.category-in-no-explanation {
+    margin-top: 4px;
+}
+
+#no-exp-toolbar {
+    margin-top: 100px;
 }
