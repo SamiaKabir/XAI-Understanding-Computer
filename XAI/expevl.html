@@ -64,15 +64,19 @@
 
     $(document).ready(function() {
 	    $('input[type=radio][name=category]').change(function() {
-	        if ((this.value == 'weak') | (this.value == 'robust') | (this.value == 'no')| (this.value == 'quiz')) {
-	            task_txt = "In this study you will see 40 images of animals anlong with their classification and after that you will give a short quiz about what do you think about the classifiers accuracy" 
+	        if ((this.value == 'weak') | (this.value == 'robust') | (this.value == 'no')) {
+	            task_txt = "In this study you will see a set of images of cats and dogs along with their classification; for each image, you will be given a short questionnaire about what do you think about the classifiers accuracy."
 	            document.getElementById("task").innerHTML = task_txt;
 	        }
 
           if (this.value == 'all') {
-           task_txt = "In this study you will see 80 images of animals anlong .You will be asked to rate each image based on how clearly it is explained."
+           task_txt = "In this study you will see a set of images of cats and dogs. You will be asked to rate each image based on how clearly it is explained.";
            document.getElementById("task").innerHTML = task_txt;
           }
+            if (this.value == 'quiz') {
+                task_txt = "After completing each section, there is a quiz section. You will be asked to say, based on your own judgment, does the computer categorize each image correctly.";
+                document.getElementById("task").innerHTML = task_txt;
+            }
 	    });
 	});
 
