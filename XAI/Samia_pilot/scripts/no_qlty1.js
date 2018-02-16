@@ -119,29 +119,21 @@ function nextImage() {
         
         var rad1= document.getElementById("star-1");
         var rad2= document.getElementById("star-2");
-        var rad3= document.getElementById("star-3");
-        var rad4= document.getElementById("star-4");
-        var rad5= document.getElementById("star-5");
+  
         rad1.checked=false;
         rad2.checked=false;
-        rad3.checked=false;
-        rad4.checked=false;
-        rad5.checked=false;
+
         var lab1 = document.getElementById("s1");
-		var lab2 = document.getElementById("s2");
-		var lab3 = document.getElementById("s3");
-		var lab4 = document.getElementById("s4");
-		var lab5 = document.getElementById("s5");
+	var lab2 = document.getElementById("s2");
+
 
         lab1.className = "btn btn-info";
     	lab2.className = "btn btn-info";
-    	lab3.className = "btn btn-info";
-    	lab4.className = "btn btn-info";
-    	lab5.className = "btn btn-info";
 
 
 
-        if(doc_num==50){
+
+        if(doc_num==40){
            //if (confirm("Are you sure you want to start over?") == true) {
            
             WriteFile();
@@ -166,7 +158,7 @@ function nextImage() {
      
      function delay(){ 
 
-     if(((rad1.checked)||(rad2.checked)||(rad3.checked))&&((rad4.checked)||(rad5.checked)))
+     if((rad1.checked)||(rad2.checked))
      {
         document.getElementById("next2").disabled= false;
         console.log("jmhg");
@@ -255,44 +247,43 @@ function getCookie(cname) {
 function image_title(){
     obj = imageName.toString().split(".")[0].slice(0,-1)
     explanation_title.text("Highlighted area shows which regions of the image were important for the Artificial Intelligence to identify this object: ( "+ doc_num+" / "+total_doc+ " )");
-    if(doc_num<=20)
+  if(doc_num<=20)
     {
      if(accuracy==1)
      { 
-          if( doc_num==5 || doc_num==12 || doc_num==10 || doc_num==14 || doc_num==15 || doc_num==20 || doc_num==18){
-          	       label_title.text("The computer categorized this picture as a Cat");
+          if( doc_num==3 || doc_num==4 || doc_num==5 || doc_num==9 || doc_num==10 || doc_num==12 || doc_num==17 || doc_num==19 || doc_num==20){
+          	       label_title.text("Computer Answer: Cat");
           }
          
           else
-                   label_title.text("The computer categorized this picture as a Dog");
+                   label_title.text("Computer Answer: Dog");
 
 
      }
 
 
-     else label_title.text("The computer categorized this picture as a Dog");
+     else label_title.text("Computer Answer: Dog");
 
     }
     else
     {
     if(accuracy==1)
-     { 
-          if(doc_num==25|| doc_num==32 || doc_num==30 || doc_num==34 || doc_num==35 || doc_num==38 || doc_num==40){
-          	       label_title.text("The computer categorized this picture as a Dog");
+     {
+          if(doc_num==23|| doc_num==24 || doc_num==25 || doc_num==26 || doc_num==27 || doc_num==30 || doc_num==35 || doc_num==36 || doc_num==37){
+          	       label_title.text("Computer Answer: Cat");
           }
          
           else
-                   label_title.text("The computer categorized this picture as a Cat");
+                   label_title.text("Computer Answer:  Dog");
 
 
      }
 
-     else label_title.text("The computer categorized this picture as a Cat");
+     else label_title.text("Computer Answer: Cat");
 
 
 
-    }
-    
+    }    
 }
 
 function showImage(image_name, update_txt) {
@@ -438,20 +429,15 @@ function save_json(){
 
           r1= document.getElementById("star-1");
           r2= document.getElementById("star-2");
-          r3= document.getElementById("star-3");
-          r4= document.getElementById("star-4");
-          r5= document.getElementById("star-5");
-          if(r1.checked) Value_radio=3;
-          if(r2.checked) Value_radio=2;
-          if(r3.checked) Value_radio=1;
-          if(r4.checked) Value_radio1=2;
-          if(r5.checked) Value_radio1=1;
+
+          if(r1.checked) Value_radio1=1;
+          if(r2.checked) Value_radio1=2;
    
          // Value_radio=  document.getElementById("star-1").value; 
 
 	
 	// for (var i=0;i<highlight_data.length;i++){
-	results_json.push({image: imageName,value1: Value_radio1, value2: Value_radio})// contour: i+1, points: highlight_data[i]})
+	results_json.push({image: imageName, value: Value_radio1})// contour: i+1, points: highlight_data[i]})
 	//console.log("Value",Value_radio);
 	// }
 	saved = 1;

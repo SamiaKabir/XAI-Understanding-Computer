@@ -38,7 +38,7 @@
             <div class="input-group mb-3 questions" id="label5"  >
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                     <div class="input-group input-group-sm" >
-                        <span class="input-group-addon" > Do You Agree with this classification? </span>
+                        <span class="input-group-addon" > Do you agree with the computer? </span>
                         <div class="btn-group btn-group-md colors temp"  data-toggle="buttons">
                             <label id = "s5" class="btn btn-info">
                                 <input id="star-5" type="radio"  value="4" autocomplete="off"> No
@@ -53,16 +53,22 @@
             <div class="input-group mb-3 questions" id="label4" >
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                     <div class="input-group input-group-sm" >
-                        <span class="input-group-addon" > How well the highlighted area helps the computer towards this classification?</span>
+                        <span class="input-group-addon" > How well does the highlighted area explain the computer's answer?</span>
                         <div class="btn-group btn-group-md colors temp"  data-toggle="buttons" >
+                            <label id = "s7" class="btn btn-info">
+                                <input id="star-7" type="radio"  value="7" autocomplete="off"> Very Bad
+                            </label>
+                            <label id = "s6" class="btn btn-info">
+                                <input id="star-6" type="radio" value="6" autocomplete="off"> Bad
+                            </label>
                             <label id = "s3" class="btn btn-info">
-                                <input id="star-3" type="radio"  value="3" autocomplete="off"> Bad
+                                <input id="star-3" type="radio"  value="3" autocomplete="off"> Not Sure
                             </label>
                             <label id = "s2" class="btn btn-info">
-                                <input id="star-2" type="radio" value="2" autocomplete="off"> Not Sure
+                                <input id="star-2" type="radio" value="2" autocomplete="off"> Good
                             </label>
                             <label id = "s1" class="btn btn-info">
-                                <input id="star-1" type="radio" value="1" autocomplete="off"> Good
+                                <input id="star-1" type="radio" value="1" autocomplete="off"> Very Good
                             </label>
                         </div>
                     </div>
@@ -76,7 +82,7 @@
         </button>
     </div>
 </div>
-<script id= maincode src="./scripts/qlty_show1.js"></script>
+<script id= maincode src="./scripts/qlty_show.js"></script>
 
   <script>
      window.onload=function (){
@@ -91,9 +97,11 @@
      var rad1= document.getElementById("star-1");
      var rad2= document.getElementById("star-2");
      var rad3= document.getElementById("star-3");
+     var rad6= document.getElementById("star-6");
+     var rad7= document.getElementById("star-7");
      var rad4= document.getElementById("star-4");
      var rad5= document.getElementById("star-5");
-     if(((rad1.checked)||(rad2.checked)||(rad3.checked))&&((rad4.checked)||(rad5.checked)))
+     if(((rad1.checked)||(rad2.checked)||(rad3.checked)||(rad6.checked)||(rad7.checked))&&((rad4.checked)||(rad5.checked)))
      {
         document.getElementById("next2").disabled= false;
         console.log("jmhg");

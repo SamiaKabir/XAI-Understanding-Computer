@@ -132,7 +132,7 @@ function nextImage() {
      lab5.className = "btn btn-primary";
 
 
-        if(doc_num==100){
+        if(doc_num==94){
            //if (confirm("Are you sure you want to start over?") == true) {
            
             WriteFile();
